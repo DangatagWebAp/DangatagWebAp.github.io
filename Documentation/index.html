@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>CC14 Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction"></a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >GIT</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#JavaScript_and_Java"
+            >HTML 5</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">CSS</a></li>
+        <li><a class="nav-link" href="#Variables">HyperLink</a></li>
+        <li>
+          <a class="nav-link" href="#Declaring_variables"
+            >Forms</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Variable_scope">Installing Linux</a></li>
+        <li>
+          <a class="nav-link" href="#Global_variables">Ngrok</a>
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>GIT</header>
+        <article>
+          <p>
+            Free and open source distributed version control system designed to handle everything 
+            from small to very large projects with speed and efficiency.
+            Need to install to PC.
+          </p>
+
+          <ol>Open terminal</ol>
+          <ol>type git then press enter</ol>
+          <ol>clone github account to PC</ol>
+          <code>git clone https://github.com/username/repositoryname</code>
+          <ol>to add file into your repository use the following command:</ol>
+          <code>
+            git add . 
+            git commit -m "message"
+            git push
+          </code>
+          <p>this adds any file to repository</p>
+        </article>
+      <section class="main-section" id="JavaScript_and_Java">
+        <header>HTML5</header>
+        <article>
+          <p>
+            Standard markup language used to create the structure and content of web pages.
+            Latest version oh HTML , introduces new features and improvements. Such as :
+          </p>
+        
+          <p>
+            Provides tags attributes that define the various elements such as 
+            headings, paragraphs, images, links, forms etc. 
+          </p>
+          <ul>
+            <ol>
+                <code>
+                    header
+                    nav 
+                    article 
+                    footer 
+                </code>
+            </ol>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Hello_world">
+        <header>CSS</header>
+        <article>
+          Cascading Style Sheets is used to style and layout the visual presentation of 
+          HTML documents. Allows you to control the colors, fonts, spacing, as well as positioning of elements
+          on a web page. Apply either within HTML doc. or externally.
+
+          <p>
+            example:
+          </p>
+          <code
+            >body {
+                font-family: 'Arial';
+                padding: 15px;
+            }
+          </code>
+          In this code, the sont as well as the padding of the code in HTML doc. 
+          is changed through CSS. 
+        </article>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Hyperlinks</header>
+        <p>
+            is a reference to data that the user can directly follow by clicking
+             or tapping. It typically refers to a web page but can also be a 
+             reference to an image, a file, or another resource
+        </p>
+        <ul>
+            <li>
+            Web Page link 
+                <code>
+                    a href="link or file path"> /a'
+                </code>
+
+            </li>
+            <li>
+                img link
+                    <code>a href="image link or file path"> /a'</code>
+            </li>
+        </ul>
+        <p>
+            Fundamental structure of the web, enabling navigation between web pages and resources.
+        </p>
+      </section>
+      <section class="main-section" id="Declaring_variables">
+        <header>Forms</header>
+        <article>
+            <p>
+                Structural element used to create a section of a web page that contains 
+                interactive controls for submitting data to a server.
+            </p>
+          Create a simple form with the following fields:
+          <ul>
+            <ol>Text input for the user's name.</ol>
+            <ol>Password input for the user's password.</ol>
+            <ol>Radio buttons for gender (Male/Female).</ol>
+            <ol>Checkbox for accepting terms and conditions.</ol>
+          </ul>
+        </article>
+      </section>
+      <section class="main-section" id="Variable_scope">
+        <header>Installing Linux</header>
+        <article>
+          <p>
+            great way to explore a new operating system and gain experience 
+            with different software environments.
+          </p>
+
+          <p>General outline of the process:</p>
+
+          <ul>
+            <li>
+                Open CMD on PC
+            </li>
+            <li>
+                Type <code>wsl --install</code>
+            </li>
+            after that reboot PC
+            <li>
+                type again wsl.
+            </li>
+            <li>
+                Set your username and password.
+            </li>
+            <li>
+                Type:
+                <code>
+                    sudo apt update
+                    sudo apt upgrade
+                    sudo apt-get install apache2
+                    sudo service apche2 start
+                </code>
+            </li>
+          </ul>
+          >
+        </article>
+      </section>
+      <section class="main-section" id="Global_variables">
+        <header>Ngrok</header>
+        <article>
+          <p>
+            A cross-platform command-line tool that enables developers to expose 
+            local servers to the internet. It creates secure tunnels from a public 
+            endpoint to a locally running web service, making it accessible from anywhere.
+          </p>
+        
+          <ul>
+            <li>Make account in <a href="ngrok.com"></a>ngrok.com</li>
+            <li>After creating , click main menu button</li>
+            <li>Under Cloud Edge , click Domains then create domain.</li>
+            <li>Return to main menu, under getting started, click setup & installation.</li>
+            <li>Under agents, click Linux</li>
+            <li>Copy the "curl -s ...."</li>
+            <li>opem cmd and type wsl </li>
+            <li>paste the link then the ngrok config under static domain</li>
+          </ul>
+        </article>
+      </section>
+     
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+          <ul>
+            <li>
+              All the documentation in this page is taken from
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+                target="_blank"
+                >MDN</a
+              >
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
